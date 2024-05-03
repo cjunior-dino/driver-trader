@@ -1,22 +1,33 @@
-import adiciona_carrinho
+from funcoes.adiciona_carrinho import carrinho
 def fechar_compra():
-    if len(adiciona_carrinho.carrinho) != 0:
+    if len(carrinho) != 0:
         total = 0
         print(' ')
         print('----------------NF----------------')
         print('CODIGO   | NOME | CATEGORIA  | VALOR')
-        for posicao in range(0, len(adiciona_carrinho.carrinho)):
-            print(adiciona_carrinho.carrinho[posicao][0] + '\t' + adiciona_carrinho.carrinho[posicao][1] + '\t' + adiciona_carrinho.carrinho[posicao][3] + '\t' + adiciona_carrinho.carrinho[posicao][5])
-        print('QUANTIDADE DE ITENS: ', len(adiciona_carrinho.carrinho))
-        for item in adiciona_carrinho.carrinho:
+        for posicao in range(0, len(carrinho)):
+            print(carrinho[posicao][0] + '\t' + carrinho[posicao][1] + '\t' + carrinho[posicao][3] + '\t' + carrinho[posicao][5])
+        print('QUANTIDADE DE ITENS: ', len(carrinho))
+        for item in carrinho:
             codigo, nome, marca, categoria, quantidade, preco = item
             total = total + float(preco)
         print('TOTAL DO CARRINHO: ', round(total,2))
         print(' ')
-        print('OBRIGADO POR COMPRAR CONOSCO, VOLTE SEMPRE!')
+        print('VOCE DESEJA RETORNAR AO MENU?')
+        print('1- MENU')
+        print('DIGITE QUALQUER TECLA PARA ENCERRAR O SISTEMA')
+        option = input()
+        if option == '1':
+            carrinho.clear()
+            return True
+        else:
+            print(' ')
+            print('OBRIGADO POR USAR O DRIVER-TRADE !')
+            print(' ')
+            return False 
     else:
         print(' ')
-        print('OBRIGADO POR USAR O SISTEMA !')
+        print('OBRIGADO POR USAR O DRIVER-TRADE !')
         print(' ')
-    return False
+        return False
         
