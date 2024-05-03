@@ -1,17 +1,17 @@
-import adiciona_carrinho
+from funcoes.adiciona_carrinho import *
 def ver_carrinho():
-    if len(adiciona_carrinho.carrinho) != 0:
+    if len(carrinho) != 0:
         total = 0
         print(' ')
         print('CARRINHO:')
         print(' ')
         print('CODIGO   | NOME | CATEGORIA  | VALOR')
         print(' ')
-        for posicao in range(0, len(adiciona_carrinho.carrinho)):
-            print(adiciona_carrinho.carrinho[posicao][0] + '\t' + adiciona_carrinho.carrinho[posicao][1] + '\t' + adiciona_carrinho.carrinho[posicao][3] + '\t' + adiciona_carrinho.carrinho[posicao][5])
+        for posicao in range(0, len(carrinho)):
+            print(carrinho[posicao][0] + '\t' + carrinho[posicao][1] + '\t' + carrinho[posicao][3] + '\t' + carrinho[posicao][5])
         print(' ')
-        print('QUANTIDADE DE ITENS: ', len(adiciona_carrinho.carrinho))
-        for item in adiciona_carrinho.carrinho:
+        print('QUANTIDADE DE ITENS: ', len(carrinho))
+        for item in carrinho:
             codigo, nome, marca, categoria, quantidade, preco = item
             total = total + float(preco)
         print(' ')
