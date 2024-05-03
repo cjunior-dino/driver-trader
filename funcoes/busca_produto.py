@@ -1,7 +1,8 @@
 
 import random
-import importa_arquivo
+from funcoes.importa_arquivo import *
 
+#import importa_arquivo
 resultado = []
 def busca_produto(busca):
     conta = 0
@@ -12,7 +13,8 @@ def busca_produto(busca):
         print(' ')
         
     else:
-        for pesquisa in importa_arquivo.produto:
+        for pesquisa in produto:
+            print(pesquisa)
             codigo, nome, marca, categoria, quantidade, preco = pesquisa       
             if busca in nome.lower() or busca == categoria.lower() or busca == codigo.lower():
                     resultado.append(pesquisa)
