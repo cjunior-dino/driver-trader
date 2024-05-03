@@ -14,7 +14,6 @@ def busca_produto(busca):
         
     else:
         for pesquisa in produto:
-            print(pesquisa)
             codigo, nome, marca, categoria, quantidade, preco = pesquisa       
             if busca in nome.lower() or busca == categoria.lower() or busca == codigo.lower():
                     resultado.append(pesquisa)
