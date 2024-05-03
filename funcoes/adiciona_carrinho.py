@@ -1,9 +1,9 @@
-import importa_arquivo
+from funcoes.importa_arquivo import *
 carrinho = []
 def adiciona_carrinho(cod_prod):
 
     adiciona_produto = []
-    for pesquisa in importa_arquivo.produto:
+    for pesquisa in produto:
             codigo, nome, marca, categoria, quantidade, preco = pesquisa       
             if cod_prod == codigo.lower():
                     adiciona_produto.append(pesquisa)
