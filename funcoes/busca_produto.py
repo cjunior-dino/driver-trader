@@ -10,7 +10,7 @@ def busca_produto(busca):
         print(' ')
         
     else:
-        for pesquisa in funcoes.importa_arquivo.produto:
+        for pesquisa in funcoes.importa_arquivo.adicina():
             codigo, nome, marca, categoria, quantidade, preco = pesquisa       
             if busca in nome.lower() or busca == categoria.lower() or busca == codigo.lower():
                     resultado.append(pesquisa)

@@ -7,7 +7,8 @@ def adiciona_carrinho(cod_prod):
     for pesquisa in produto:
             codigo, nome, marca, categoria, quantidade, preco = pesquisa       
             if cod_prod == codigo.lower():
-                    qtde = int(input('INFORME A QUANTIDADE SOLICITADA'))
+                    print(' ')
+                    qtde = int(input('INFORME A QUANTIDADE SOLICITADA: '))
                     if qtde <= int(quantidade):
                         adiciona = codigo, nome, marca, categoria, qtde, preco
                         adiciona_produto.append(adiciona)

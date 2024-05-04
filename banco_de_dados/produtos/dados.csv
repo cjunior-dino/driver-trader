@@ -1,5 +1,5 @@
 codigo;nome;marca;categoria;quantidade;preco
-1;Kit de Filtros;Motorcraft;Filtros;20;49.99
+1;Kit de Filtros;Motorcraft;Filtros;10;49.99
 2;Bomba D'agua;KYB;Arrefecimento;45;99.99
 3;Kit de Freio;Spectra Premium;Freios;25;29.99
 4;Sensor de Pressao de Oleo;Dayco;Sensores;20;49.99
@@ -64,7 +64,7 @@ codigo;nome;marca;categoria;quantidade;preco
 63;Kit de Juntas;Varta;Correias;20;59.99
 64;Valvula EGR;Mahle;Valvulas;30;29.99
 65;Balancins;Ferodo;Motor;25;69.99
-66;Pneu;Michelin;Pneus;47;199.99
+66;Pneu;Michelin;Pneus;40;199.99
 67;Tampa de Valvulas;Siemens;Motor;25;19.99
 68;Arruelas;Cloyes;Motor;40;49.99
 69;Biela;Meyle;Motor;25;59.99

@@ -3,6 +3,7 @@ from funcoes.adiciona_carrinho import adiciona_carrinho
 from funcoes.ver_carrinho import ver_carrinho
 from funcoes.fechar_compra import fechar_compra
 from funcoes.menu import menu
+from funcoes.remover_carrinho import remove
 
 
 
@@ -11,20 +12,24 @@ prossiga = True
 while prossiga == True:
     
     menu()
-    opcao = int(input('Digite apenas o numero da opção: '))
+    opcao = int(input('DIGITE APENAS O NUMERO DA OPÇÃO: '))
     print(' ')
     if opcao == 1:
         print(' ')
-        print('NOVA BUSCA SOLICITADA:')
+        print('NOVA BUSCA SOLICITADA: ')
         print(' ')
         busca = input('NFORME NOME DO PRODUTO OU O CÓDIGO DO PRODUTO OU A CATEGORIA DO PRODUTO: ').lower()
         prossiga = busca_produto(busca)
     elif opcao == 2:
-        cod_prod = str(input('DIGITE O CÓDIGO:')).lower()
+        print(' ')
+        cod_prod = str(input('DIGITE O CÓDIGO: ')).lower()
         prossiga = adiciona_carrinho(cod_prod)    
     elif opcao == 3:
         prossiga = ver_carrinho()
     elif opcao == 4:
+        print(' ')
+        prossiga = remove()
+    elif opcao == 5:
         prossiga = fechar_compra()
     else:
         print(' ')
