@@ -13,3 +13,4 @@ def atualiza():
                     arquivo.write(codigo + ';' + nome + ';' + marca + ';' + categoria + ';' + str(total) + ';' + preco + '\n')
                 else:
                     arquivo.write(codigo + ';' + nome + ';' + marca + ';' + categoria + ';' + quantidade + ';' + preco + '\n')
+        

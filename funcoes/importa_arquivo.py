@@ -1,6 +1,5 @@
-
-with open('banco_de_dados\produtos\dados.csv', 'r',encoding='utf-8') as arquivo:
-    produto = []
+produto = []
+with open(r'C:\Users\DINO\Desktop\trabalho_driver_trade\banco_de_dados\produtos\dados.csv', 'r',encoding='utf-8') as arquivo:
     next(arquivo)
     lista_produtos = arquivo.readlines()
     #criado a lista de produto

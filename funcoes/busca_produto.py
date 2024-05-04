@@ -1,4 +1,4 @@
-from funcoes.importa_arquivo import *
+import funcoes.importa_arquivo
 
 #import importa_arquivo
 resultado = []
@@ -10,7 +10,7 @@ def busca_produto(busca):
         print(' ')
         
     else:
-        for pesquisa in produto:
+        for pesquisa in funcoes.importa_arquivo.produto:
             codigo, nome, marca, categoria, quantidade, preco = pesquisa       
             if busca in nome.lower() or busca == categoria.lower() or busca == codigo.lower():
                     resultado.append(pesquisa)
