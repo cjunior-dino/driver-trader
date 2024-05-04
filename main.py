@@ -5,6 +5,7 @@ from funcoes.fechar_compra import fechar_compra
 from funcoes.menu import menu
 
 
+
 prossiga = True
 
 while prossiga == True:

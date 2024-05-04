@@ -5,15 +5,14 @@ def ver_carrinho():
         print(' ')
         print('CARRINHO:')
         print(' ')
-        print('CODIGO   | NOME | CATEGORIA  | VALOR')
-        print(' ')
+        print('CODIGO   | NOME          | MARCA     | CATEGORIA     | QUANTIDADE   | VALOR')
         for posicao in range(0, len(carrinho)):
-            print(carrinho[posicao][0] + '\t' + carrinho[posicao][1] + '\t' + carrinho[posicao][3] + '\t' + carrinho[posicao][5])
+            print(carrinho[posicao][0] + '\t' + carrinho[posicao][1] + '\t' + carrinho[posicao][2] + '\t' + carrinho[posicao][3] + '\t' + str(carrinho[posicao][4]) + '\t' + carrinho[posicao][5])
         print(' ')
         print('QUANTIDADE DE ITENS: ', len(carrinho))
         for item in carrinho:
             codigo, nome, marca, categoria, quantidade, preco = item
-            total = total + float(preco)
+            total = total + round(float(preco)*int(quantidade),2)
         print(' ')
         print('TOTAL DO CARRINHO: ', round(total,2))
         print(' ')

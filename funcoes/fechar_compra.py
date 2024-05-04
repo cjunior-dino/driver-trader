@@ -1,4 +1,5 @@
 from funcoes.adiciona_carrinho import carrinho
+from funcoes.atualiza_dados import *
 def fechar_compra():
     if len(carrinho) != 0:
         total = 0
@@ -12,6 +13,7 @@ def fechar_compra():
             codigo, nome, marca, categoria, quantidade, preco = item
             total = total + float(preco)
         print('TOTAL DO CARRINHO: ', round(total,2))
+        atualiza()
         print(' ')
         print('VOCE DESEJA RETORNAR AO MENU?')
         print('1- MENU')

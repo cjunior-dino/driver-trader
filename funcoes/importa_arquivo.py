@@ -1,6 +1,6 @@
-produto = []
 
 with open('banco_de_dados\produtos\dados.csv', 'r',encoding='utf-8') as arquivo:
+    produto = []
     next(arquivo)
     lista_produtos = arquivo.readlines()
     #criado a lista de produto
