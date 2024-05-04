@@ -1,20 +1,101 @@
 codigo;nome;marca;categoria;quantidade;preco
-524789; Pneu; Michelin; Pneus; 50; 199.99
-032654; Óleo de Motor; Shell; Fluidos; 30; 49.99
-986321; Bateria; Bosch; Baterias; 20; 129.99
-157492; Lâmpada; Osram; Iluminação; 40; 19.99
-823465; Filtro de Ar; Fram; Filtros; 60; 39.99
-249386; Pastilha de Freio; Pirelli; Freios; 25; 79.99
-956142; Pneu; Michelin; Pneus; 70; 249.99
-641532; Óleo de Motor; Shell; Fluidos; 15; 39.99
-781943; Bateria; Bosch; Baterias; 10; 109.99
-953261; Lâmpada; Osram; Iluminação; 35; 29.99
-642158; Filtro de Ar; Fram; Filtros; 80; 49.99
-014587; Pastilha de Freio; Pirelli; Freios; 45; 89.99
-579143; Pneu; Michelin; Pneus; 90; 299.99
-684215; Óleo de Motor; Shell; Fluidos; 25; 59.99
-251497; Bateria; Bosch; Baterias; 15; 119.99
-359468; Lâmpada; Osram; Iluminação; 50; 39.99
-791635; Filtro de Ar; Fram; Filtros; 100; 59.99
-369124; Pastilha de Freio; Pirelli; Freios; 30; 99.99
-251736; Pneu; Michelin; Pneus; 60; 199.99
+1;Kit de Filtros;Motorcraft;Filtros;20;49.99
+2;Bomba D'agua;KYB;Arrefecimento;45;99.99
+3;Kit de Freio;Spectra Premium;Freios;25;29.99
+4;Sensor de Pressao de Oleo;Dayco;Sensores;20;49.99
+5;Corpo de Borboleta;Mahle;Corpo de Borboleta;25;89.99
+6;Kit de Rolamentos;Gates;Suspensao;30;29.99
+7;Bronzina;TYC;Motor;30;19.99
+8;Junta do Cabecote;Varta;Motor;30;39.99
+9;Bateria;Bosch;Baterias;20;129.99
+10;Oleo de Motor;Shell;Fluidos;30;49.99
+11;Arruelas;Eastern;Motor;20;49.99
+12;Kit de Motor;VDO;Motor;35;49.99
+13;Cabo de Velas;Denso;Ignicao;20;39.99
+14;Cabo de Embreagem;Beck Arnley;Transmissao;30;29.99
+15;Polia do Comando;K&N;Motor;20;29.99
+16;Sensor de Fase;ITM Engine Components;Sensores;25;19.99
+17;Jogo de Aneis;Victor Reinz;Motor;25;59.99
+18;Interruptor de Luz;Contitech;Sistema Eletrico;30;19.99
+19;Radiador;Brembo;Arrefecimento;30;199.99
+20;Cilindro de Embreagem;National;Transmissao;25;69.99
+21;Correia Dentada;ACDelco;Correias;60;39.99
+22;Bomba de Combustivel;Monroe;Combustivel;40;89.99
+23;Catalisador;Sachs;Sistema de Exaustao;30;299.99
+24;Tampa do Radiador;Airtex;Arrefecimento;30;39.99
+25;Bomba de Oleo;Bendix;Motor;35;29.99
+26;Cilindro de Freio;NGK;Freios;30;19.99
+27;Valvula Termostatica;Sealed Power;Valvulas;35;49.99
+28;Bobina de Ignicao;Denso;Ignicao;35;49.99
+29;Embreagem;Magneti Marelli;Transmissao;25;199.99
+30;Sensor de ABS;Denso;Sensores;35;29.99
+31;Corrente de Distribuicao;Wearever;Correias;25;49.99
+32;Reservatorio de Agua;Moog;Arrefecimento;30;19.99
+33;Disco de Freio;Valeo;Freios;40;99.99
+34;Amortecedor;Castrol;Suspensao;40;149.99
+35;Sensor de Velocidade;TRW;Sensores;35;39.99
+36;Cilindro Mestre;Federated;Transmissao;35;39.99
+37;Sensor de Rotacao;Bando;Sensores;40;39.99
+38;Sensor de ABS;Gates;Sensores;35;69.99
+39;Vela de Ignicao;Mobil;Ignicao;55;19.99
+40;Filtro de Ar;Fram;Filtros;60;39.99
+41;Sensor de Oxigenio;NGK;Sensores;20;59.99
+42;Sensor de Oxigenio;Dayco;Sensores;25;29.99
+43;Cabo de Freio;Delphi;Transmissao;30;29.99
+44;Sensor de Velocidade;Hastings;Sensores;20;39.99
+45;Correia Poly V;Hitachi;Correias;25;49.99
+46;Aditivo para Radiador;GSP;Arrefecimento;25;19.99
+47;Kit de Embreagem;Standard;Transmissao;20;19.99
+48;Cabo de Embreagem;Cardone;Transmissao;25;19.99
+49;Parafusos;Fel-Pro;Motor;30;29.99
+50;Jogo de Juntas;Timken;Correias;20;39.99
+51;Pastilha de Freio;Pirelli;Freios;25;79.99
+52;Polia da Arvore de Manivelas;Mevotech;Motor;25;39.99
+53;Kit de Correia;Fel-Pro;Correias;25;19.99
+54;Tampa de Valvulas;Autoline;Motor;35;49.99
+55;Jogo de Velas;MTE-Thomson;Ignicao;50;29.99
+56;Cabo de Acelerador;Bosch;Transmissao;20;59.99
+57;Cabo de Vela;INA;Ignicao;40;9.99
+58;Lona de Freio;Champion;Freios;25;49.99
+59;Servo Freio;SKP;Freios;30;19.99
+60;Valvula de Retencao;Four Seasons;Valvulas;30;79.99
+61;Palheta de Freio;Goodyear;Freios;45;69.99
+62;Correia de Comando;Motorcraft;Correias;40;69.99
+63;Kit de Juntas;Varta;Correias;20;59.99
+64;Valvula EGR;Mahle;Valvulas;30;29.99
+65;Balancins;Ferodo;Motor;25;69.99
+66;Pneu;Michelin;Pneus;50;199.99
+67;Tampa de Valvulas;Siemens;Motor;25;19.99
+68;Arruelas;Cloyes;Motor;40;49.99
+69;Biela;Meyle;Motor;25;59.99
+70;Reservatorio de Combustivel;Raybestos;Combustivel;25;49.99
+71;Sensor de Temperatura;Delphi;Sensores;25;29.99
+72;Jogo de Aneis;Aisin;Motor;30;19.99
+73;Sensor de Detonacao;ContiTech;Sensores;20;19.99
+74;Porca;Bosal;Motor;40;39.99
+75;Aditivo para Radiador;Genuine;Arrefecimento;25;59.99
+76;Pastilha de Freio;ACI;Freios;30;39.99
+77;Valvula Solenoide;Wells;Valvulas;25;29.99
+78;Valvula de Escape;Dorman;Valvulas;25;69.99
+79;Sensor de Posicao do Virabrequim;SKF;Sensores;25;59.99
+80;Virabrequim;Bilstein;Motor;40;399.99
+81;Cilindro de Roda;GKN;Freios;20;59.99
+82;Junta do Motor;VDO;Motor;20;29.99
+83;Radiador de Oleo;Mann;Arrefecimento;20;79.99
+84;Turbina;BorgWarner;Turbo;30;399.99
+85;Sensor de Temperatura;Fel-Pro;Sensores;30;49.99
+86;Sensor de Pressao;Gates;Sensores;35;59.99
+87;Escova Limpador de Parabrisa;Hankook;Suspensao;35;29.99
+88;Mola;Standard;Suspensao;25;29.99
+89;Kit de Velas;Hastings;Ignicao;35;39.99
+90;Comando de Valvulas;Wagner;Motor;30;79.99
+91;Lampada;Osram;Iluminacao;40;19.99
+92;Parafusos;Beck Arnley;Motor;35;29.99
+93;Kit de Suspensao;TYC;Suspensao;30;39.99
+94;Valvula de Admissao;Clevite;Valvulas;20;59.99
+95;Jogo de Juntas;Wagner;Correias;25;59.99
+96;Correia Dentada;Mopar;Correias;30;59.99
+97;Pistao;Delphi;Motor;20;79.99
+98;Valvula de Controle de Ar;Motorcraft;Valvulas;40;19.99
+99;Tuchos;Aisin;Motor;35;59.99
+100;Porca;Elring;Motor;35;39.99

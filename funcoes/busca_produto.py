@@ -1,11 +1,8 @@
-
-import random
 from funcoes.importa_arquivo import *
 
 #import importa_arquivo
 resultado = []
 def busca_produto(busca):
-    conta = 0
     resultado.clear()
     if busca == '':
         print(' ')
@@ -23,13 +20,10 @@ def busca_produto(busca):
             print('PRODUTO NÃO ENCONTRADO')
 
         else:
-            random.shuffle(resultado)
             print(' ')
             print('RESULTADOS:')           
-            print('CODIGO   | NOME | CATEGORIA  | VALOR')
+            print('CODIGO   | NOME          | MARCA     | CATEGORIA     | ESTOQUE   | VALOR')
             for posicao in range(0, len(resultado)):
-                if conta <= 4:
-                    conta += 1
-                    print(resultado[posicao][0] + '\t' + resultado[posicao][1] + '\t' + resultado[posicao][3] + '\t' + resultado[posicao][5])
+                    print(resultado[posicao][0] + '\t' + resultado[posicao][1] + '\t' + resultado[posicao][2] + '\t' + resultado[posicao][3] + '\t' + resultado[posicao][4] + '\t' + resultado[posicao][5])
         print(' ')
     return True
