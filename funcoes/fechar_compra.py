@@ -3,15 +3,21 @@ from funcoes.atualiza_dados import *
 def fechar_compra():
     if len(carrinho) != 0:
         total = 0
+        tot_prod = 0
         print(' ')
         print('----------------NF----------------')
-        print('CODIGO   | NOME | CATEGORIA  | VALOR')
+        print('CODIGO   | NOME          | MARCA     | CATEGORIA     | QUANTIDADE   | VALOR')
         for posicao in range(0, len(carrinho)):
-            print(carrinho[posicao][0] + '\t' + carrinho[posicao][1] + '\t' + carrinho[posicao][3] + '\t' + carrinho[posicao][5])
-        print('QUANTIDADE DE ITENS: ', len(carrinho))
+            print(carrinho[posicao][0] + '\t' + carrinho[posicao][1] + '\t' + carrinho[posicao][2] + '\t' + carrinho[posicao][3] + '\t' + str(carrinho[posicao][4]) + '\t' + carrinho[posicao][5])
         for item in carrinho:
             codigo, nome, marca, categoria, quantidade, preco = item
-            total = total + float(preco)
+            tot_prod = tot_prod + int(quantidade)
+        print(' ')
+        print('QUANTIDADE DE ITENS: ', tot_prod)
+        for item in carrinho:
+            codigo, nome, marca, categoria, quantidade, preco = item
+            total = total + round(float(preco)*int(quantidade),2)
+        print(' ')
         print('TOTAL DO CARRINHO: ', round(total,2))
         atualiza()
         print(' ')
