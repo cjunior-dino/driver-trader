@@ -12,24 +12,24 @@ prossiga = True
 while prossiga == True:
     
     menu()
-    opcao = int(input('DIGITE APENAS O NUMERO DA OPÇÃO: '))
+    opcao = input('DIGITE APENAS O NUMERO DA OPÇÃO: ')
     print(' ')
-    if opcao == 1:
+    if opcao == '1':
         print(' ')
         print('NOVA BUSCA SOLICITADA: ')
         print(' ')
         busca = input('NFORME NOME DO PRODUTO OU O CÓDIGO DO PRODUTO OU A CATEGORIA DO PRODUTO: ').lower()
         prossiga = busca_produto(busca)
-    elif opcao == 2:
+    elif opcao == '2':
         print(' ')
         cod_prod = str(input('DIGITE O CÓDIGO: ')).lower()
         prossiga = adiciona_carrinho(cod_prod)    
-    elif opcao == 3:
+    elif opcao == '3':
         prossiga = ver_carrinho()
-    elif opcao == 4:
+    elif opcao == '4':
         print(' ')
         prossiga = remove()
-    elif opcao == 5:
+    elif opcao == '5':
         prossiga = fechar_compra()
     else:
         print(' ')

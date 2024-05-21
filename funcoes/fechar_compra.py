@@ -1,5 +1,6 @@
 from funcoes.adiciona_carrinho import carrinho
 from funcoes.atualiza_dados import *
+import funcoes.nota_fiscal 
 def fechar_compra():
     if len(carrinho) != 0:
         total = 0
@@ -26,12 +27,14 @@ def fechar_compra():
         print('DIGITE QUALQUER TECLA PARA ENCERRAR O SISTEMA')
         option = input()
         if option == '1':
+            funcoes.nota_fiscal.nota()
             carrinho.clear()
             return True
         else:
             print(' ')
             print('OBRIGADO POR USAR O DRIVER-TRADE !')
             print(' ')
+            funcoes.nota_fiscal.nota()
             return False 
     else:
         print(' ')

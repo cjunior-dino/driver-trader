@@ -1,7 +1,7 @@
 codigo;nome;marca;categoria;quantidade;preco
-1;Kit de Filtros;Motorcraft;Filtros;10;49.99
-2;Bomba D'agua;KYB;Arrefecimento;45;99.99
-3;Kit de Freio;Spectra Premium;Freios;25;29.99
+1;Kit de Filtros;Motorcraft;Filtros;8;49.99
+2;Bomba D'agua;KYB;Arrefecimento;40;99.99
+3;Kit de Freio;Spectra Premium;Freios;24;29.99
 4;Sensor de Pressao de Oleo;Dayco;Sensores;20;49.99
 5;Corpo de Borboleta;Mahle;Corpo de Borboleta;25;89.99
 6;Kit de Rolamentos;Gates;Suspensao;30;29.99
@@ -25,12 +25,12 @@ codigo;nome;marca;categoria;quantidade;preco
 24;Tampa do Radiador;Airtex;Arrefecimento;30;39.99
 25;Bomba de Oleo;Bendix;Motor;35;29.99
 26;Cilindro de Freio;NGK;Freios;30;19.99
-27;Valvula Termostatica;Sealed Power;Valvulas;35;49.99
+27;Valvula Termostatica;Sealed Power;Valvulas;33;49.99
 28;Bobina de Ignicao;Denso;Ignicao;35;49.99
 29;Embreagem;Magneti Marelli;Transmissao;25;199.99
 30;Sensor de ABS;Denso;Sensores;35;29.99
 31;Corrente de Distribuicao;Wearever;Correias;25;49.99
-32;Reservatorio de Agua;Moog;Arrefecimento;30;19.99
+32;Reservatorio de Agua;Moog;Arrefecimento;28;19.99
 33;Disco de Freio;Valeo;Freios;40;99.99
 34;Amortecedor;Castrol;Suspensao;40;149.99
 35;Sensor de Velocidade;TRW;Sensores;35;39.99
@@ -64,8 +64,8 @@ codigo;nome;marca;categoria;quantidade;preco
 63;Kit de Juntas;Varta;Correias;20;59.99
 64;Valvula EGR;Mahle;Valvulas;30;29.99
 65;Balancins;Ferodo;Motor;25;69.99
-66;Pneu;Michelin;Pneus;40;199.99
-67;Tampa de Valvulas;Siemens;Motor;25;19.99
+66;Pneu;Michelin;Pneus;50;199.99
+67;Tampa de Valvulas;Siemens;Motor;23;19.99
 68;Arruelas;Cloyes;Motor;40;49.99
 69;Biela;Meyle;Motor;25;59.99
 70;Reservatorio de Combustivel;Raybestos;Combustivel;25;49.99
@@ -88,7 +88,7 @@ codigo;nome;marca;categoria;quantidade;preco
 87;Escova Limpador de Parabrisa;Hankook;Suspensao;35;29.99
 88;Mola;Standard;Suspensao;25;29.99
 89;Kit de Velas;Hastings;Ignicao;35;39.99
-90;Comando de Valvulas;Wagner;Motor;30;79.99
+90;Comando de Valvulas;Wagner;Motor;28;79.99
 91;Lampada;Osram;Iluminacao;40;19.99
 92;Parafusos;Beck Arnley;Motor;35;29.99
 93;Kit de Suspensao;TYC;Suspensao;30;39.99
