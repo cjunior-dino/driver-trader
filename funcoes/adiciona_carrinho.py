@@ -21,13 +21,14 @@ def adiciona_carrinho(cod_prod):
                         
                         adiciona_carrinho()
 
-    if len(adiciona_produto) != 0:
-        carrinho.append(adiciona_produto[0])
-        print(' ')
-        print('PRODUTO ADICIONADO')
-        print(' ')
-        return False
+            if len(adiciona_produto) != 0:
+                carrinho.append(adiciona_produto[0])
+                print(' ')
+                print('PRODUTO ADICIONADO')
+                print(' ')
+                return True
     else:
         print(' ')
         print('CÓDIGO INVALIDO')
         print(' ')
+        return True
