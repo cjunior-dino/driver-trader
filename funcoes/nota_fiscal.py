@@ -1,11 +1,13 @@
 from funcoes.adiciona_carrinho import carrinho
-from funcoes.buscar_nf import *
+from funcoes.cont_nf import *
+
+diretorio = 'C:/Users/etech_3050_13_/driver-trader/banco_de_dados/historico'
 def nota():
-    with open(r'banco_de_dados\historico\dados_nf.csv', 'a+',encoding='utf-8') as arquivo:
+    id = contar_arquivos(diretorio)
+    with open(rf'banco_de_dados\historico\{str(id+1)}.csv', 'a+',encoding='utf-8') as arquivo:
         dados = []
         total = 0
-        id = 0
-        cabecalho = 'NOTA FISCAL' +';' + '-' + ';' + 'N°'+ ';' + str(id) + '\n' + 'COD  ' + ';' + 'PRODUTO' + ';' + 'QUANTIDADE' + ';' +'  VALOR\n'
+        cabecalho = 'NOTA FISCAL ' + ';' + 'N°'+ ';' + str(id+1) + '\n' + 'COD  ' + ';' + 'PRODUTO' + ';' + 'QUANTIDADE' + ';' +'  VALOR\n'
         arquivo.write(cabecalho)
         for item in range(0, len(carrinho)):
             dados.append((carrinho[item][0], carrinho[item][1], carrinho[item][4],

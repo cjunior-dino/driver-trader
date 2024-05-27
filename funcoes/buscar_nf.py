@@ -1,7 +1,12 @@
-dados_notas = []
+from funcoes.cont_nf import *
+nota = []
 def buscar_nota(): 
-    
-    with open(r'banco_de_dados\historico\dados_nf.csv', 'r',encoding='utf-8') as arquivo:
-        lista_notas = arquivo.readlines()
-        for i in lista_notas:
-            dados_notas.append(i.strip('\n').split('°'))
+
+    busca_nf = input("Qual NF deseja buscar?\n-")
+    if int(busca_nf) <= contar_arquivos(diretorio):
+        with open(rf'..\banco_de_dados\historico\{str(busca_nf)}.csv', 'r',encoding='utf-8') as arquivo:
+            lista_nota = arquivo.readlines()
+            for i in lista_nota:
+                nota = i.strip(';')
+                print(nota)
+buscar_nota()
