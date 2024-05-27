@@ -9,4 +9,9 @@ def buscar_nota():
             for i in lista_nota:
                 nota = i.strip(';')
                 print(nota)
-buscar_nota()
+        return True
+    else:
+        print(" ")
+        print("NOTA INEXISTENTE")
+        print(" ")
+        return True

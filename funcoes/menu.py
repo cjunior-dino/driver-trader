@@ -7,5 +7,6 @@ def menu():
     print('4- REMOVER PRODUTO DO CARRINHO')
     print('5- CADASTRAR PRODUTO')
     print('6- FINALIZAR VENDA')
-    print('7- SAIR DO SISTEMA')
+    print('7- BUSCAR NOTA')
+    print('8- SAIR DO SISTEMA')
     print(' ')

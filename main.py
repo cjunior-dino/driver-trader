@@ -5,9 +5,7 @@ from funcoes.fechar_compra import fechar_compra
 from funcoes.menu import menu
 from funcoes.remover_carrinho import remove
 from funcoes.cadastra_produto import *
-
-
-
+from funcoes.buscar_nf import *
 prossiga = True
 
 while prossiga == True:
@@ -35,6 +33,8 @@ while prossiga == True:
     elif opcao == '6':
         prossiga = fechar_compra()
     elif opcao == '7':
+        prossiga = buscar_nota()
+    elif opcao == '8':
         print(' ')
         print('OBRIGADO POR USAR O DRIVER-TRADE !')
         print(' ')
