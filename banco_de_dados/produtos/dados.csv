@@ -1,5 +1,5 @@
 codigo;nome;marca;categoria;quantidade;preco
-1;Kit de Filtros;Motorcraft;Filtros;5;49.99
+1;Kit de Filtros;Motorcraft;Filtros;4;49.99
 2;Bomba D'agua;KYB;Arrefecimento;40;99.99
 3;Kit de Freio;Spectra Premium;Freios;24;29.99
 4;Sensor de Pressao de Oleo;Dayco;Sensores;20;49.99
@@ -99,4 +99,6 @@ codigo;nome;marca;categoria;quantidade;preco
 98;Valvula de Controle de Ar;Motorcraft;Valvulas;40;19.99
 99;Tuchos;Aisin;Motor;35;59.99
 100;Porca;Elring;Motor;35;39.99
-101;teste;teste;teste;4;1
+101;teste;teste;teste;5;1
+102;teste2;teste;teste;5;4
+103;teste;teste2;teste;5;100

@@ -22,5 +22,5 @@ def cadastra():
             cod, nom, mar, cat, quan, pre = adicina()[-1]
             codigo_prod = int(cod) + 1
             with open(r'banco_de_dados\produtos\dados.csv', 'a+',encoding='utf-8') as arquivo:
-                    arquivo.write(str(codigo_prod) + ";" + nome_prod + ";" + marca_prod + ";" + categoria_prod + ";" + quantidade_prod + ";" + preco_prod)
+                    arquivo.write(str(codigo_prod) + ";" + nome_prod + ";" + marca_prod + ";" + categoria_prod + ";" + quantidade_prod + ";" + preco_prod + "\n")
             return True
