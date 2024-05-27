@@ -5,5 +5,7 @@ def menu():
     print('2- ADICIONAR ITEM AO CARRINHO')
     print('3- VISUALIZAR OS ITENS DO CARRINHO')
     print('4- REMOVER PRODUTO DO CARRINHO')
-    print('5- FINALIZAR VENDA OU SAIR DO SISTEMA')
+    print('5- CADASTRAR PRODUTO')
+    print('6- FINALIZAR VENDA')
+    print('7- SAIR DO SISTEMA')
     print(' ')

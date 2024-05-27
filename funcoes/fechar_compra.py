@@ -22,23 +22,13 @@ def fechar_compra():
         print('TOTAL DO CARRINHO: ', round(total,2))
         atualiza()
         print(' ')
-        print('VOCE DESEJA RETORNAR AO MENU?')
-        print('1- MENU')
-        print('DIGITE QUALQUER TECLA PARA ENCERRAR O SISTEMA')
-        option = input()
-        if option == '1':
-            funcoes.nota_fiscal.nota()
-            carrinho.clear()
-            return True
-        else:
-            print(' ')
-            print('OBRIGADO POR USAR O DRIVER-TRADE !')
-            print(' ')
-            funcoes.nota_fiscal.nota()
-            return False 
+        funcoes.nota_fiscal.nota()
+        carrinho.clear()
+        return True
+
     else:
         print(' ')
-        print('OBRIGADO POR USAR O DRIVER-TRADE !')
+        print('O CARRINHO ESTA VAZIO')
         print(' ')
-        return False
+        return True
         

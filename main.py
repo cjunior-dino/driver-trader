@@ -4,6 +4,7 @@ from funcoes.ver_carrinho import ver_carrinho
 from funcoes.fechar_compra import fechar_compra
 from funcoes.menu import menu
 from funcoes.remover_carrinho import remove
+from funcoes.cadastra_produto import *
 
 
 
@@ -30,7 +31,14 @@ while prossiga == True:
         print(' ')
         prossiga = remove()
     elif opcao == '5':
+        prossiga = cadastra()
+    elif opcao == '6':
         prossiga = fechar_compra()
+    elif opcao == '7':
+        print(' ')
+        print('OBRIGADO POR USAR O DRIVER-TRADE !')
+        print(' ')
+        prossiga = False
     else:
         print(' ')
         print('OPÇÃO INVALIDA')
