@@ -1,7 +1,7 @@
 from funcoes.adiciona_carrinho import carrinho
 from funcoes.cont_nf import *
 
-diretorio = 'C:/Users/etech_3050_13_/driver-trader/banco_de_dados/historico'
+diretorio = 'banco_de_dados\historico'
 def nota():
     id = contar_arquivos(diretorio)
     with open(rf'banco_de_dados\historico\{str(id+1)}.csv', 'a+',encoding='utf-8') as arquivo:

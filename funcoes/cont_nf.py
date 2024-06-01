@@ -11,4 +11,4 @@ def contar_arquivos(diretorio):
 
     return contador
 
-diretorio = '/banco_de_dados/historico'
+diretorio = 'banco_de_dados\historico'
