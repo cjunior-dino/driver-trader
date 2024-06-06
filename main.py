@@ -2,7 +2,7 @@ from funcoes.busca_produto import busca_produto
 from funcoes.adiciona_carrinho import adiciona_carrinho
 from funcoes.ver_carrinho import ver_carrinho
 from funcoes.fechar_compra import fechar_compra
-from funcoes.menu import menu
+from funcoes.menu import *
 from funcoes.remover_carrinho import remove
 from funcoes.cadastra_produto import *
 from funcoes.buscar_nf import *
@@ -14,6 +14,10 @@ while prossiga == True:
     opcao = input('DIGITE APENAS O NUMERO DA OPÇÃO: ')
     print(' ')
     if opcao == '1':
+        menu_gerencial()
+    elif opcao == '2':
+        menu_vendas()
+    '''if opcao == '1':
         print(' ')
         print('NOVA BUSCA SOLICITADA: ')
         print(' ')
@@ -43,7 +47,7 @@ while prossiga == True:
         print(' ')
         print('OPÇÃO INVALIDA')
         print(' ')
-
+'''
 
 
 
