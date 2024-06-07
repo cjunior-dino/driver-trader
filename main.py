@@ -1,11 +1,5 @@
-from funcoes.busca_produto import busca_produto
-from funcoes.adiciona_carrinho import adiciona_carrinho
-from funcoes.ver_carrinho import ver_carrinho
-from funcoes.fechar_compra import fechar_compra
 from funcoes.menu import *
-from funcoes.remover_carrinho import remove
-from funcoes.cadastra_produto import *
-from funcoes.buscar_nf import *
+
 prossiga = True
 
 while prossiga == True:
@@ -14,31 +8,10 @@ while prossiga == True:
     opcao = input('DIGITE APENAS O NUMERO DA OPÇÃO: ')
     print(' ')
     if opcao == '1':
-        menu_gerencial()
+        prossiga = menu_gerencial()
     elif opcao == '2':
-        menu_vendas()
-    '''if opcao == '1':
-        print(' ')
-        print('NOVA BUSCA SOLICITADA: ')
-        print(' ')
-        busca = input('NFORME NOME DO PRODUTO OU O CÓDIGO DO PRODUTO OU A CATEGORIA DO PRODUTO: ').lower()
-        prossiga = busca_produto(busca)
-    elif opcao == '2':
-        print(' ')
-        cod_prod = str(input('DIGITE O CÓDIGO: ')).lower()
-        prossiga = adiciona_carrinho(cod_prod)    
+        prossiga = menu_vendas()
     elif opcao == '3':
-        prossiga = ver_carrinho()
-    elif opcao == '4':
-        print(' ')
-        prossiga = remove()
-    elif opcao == '5':
-        prossiga = cadastra()
-    elif opcao == '6':
-        prossiga = fechar_compra()
-    elif opcao == '7':
-        prossiga = buscar_nota()
-    elif opcao == '8':
         print(' ')
         print('OBRIGADO POR USAR O DRIVER-TRADE !')
         print(' ')
@@ -47,7 +20,7 @@ while prossiga == True:
         print(' ')
         print('OPÇÃO INVALIDA')
         print(' ')
-'''
+
 
 
 
