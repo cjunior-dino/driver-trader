@@ -8,9 +8,9 @@ while prossiga == True:
     opcao = input('DIGITE APENAS O NUMERO DA OPÇÃO: ')
     print(' ')
     if opcao == '1':
-        prossiga = menu_gerencial()
+        menu_gerencial()
     elif opcao == '2':
-        prossiga = menu_vendas()
+        menu_vendas()
     elif opcao == '3':
         print(' ')
         print('OBRIGADO POR USAR O DRIVER-TRADE !')
