@@ -43,8 +43,8 @@ def menu_gerencial():
 
 
 def menu_vendas():
-    prossiga = True
-    while prossiga:
+
+    while True:
         print(' ')
         print('**DIGITE O CODIGO DE ALGUMA DAS OPÇÕES**')
         print('1- FAZER NOVA BUSCA')
@@ -61,26 +61,24 @@ def menu_vendas():
             print('NOVA BUSCA SOLICITADA: ')
             print(' ')
             busca = input('NFORME NOME DO PRODUTO OU O CÓDIGO DO PRODUTO OU A CATEGORIA DO PRODUTO: ').lower()
-            prossiga = busca_produto(busca)
+            busca_produto(busca)
         elif opcao == '2':
             print(' ')
             cod_prod = str(input('DIGITE O CÓDIGO: ')).lower()
-            prossiga = adiciona_carrinho(cod_prod)
+            adiciona_carrinho(cod_prod)
         elif opcao == '3':
-            prossiga = ver_carrinho()
+            ver_carrinho()
         elif opcao == '4':
             print(' ')
-            prossiga = remove()
+            remove()
         elif opcao == '5':
-            prossiga = fechar_compra()
+            fechar_compra()
         elif opcao == '6':
             print(' ')
             print(' ')
-            venda = True
             break
         else:
             print(' ')
             print('OPÇÃO INVALIDA')
             print(' ')
             menu_vendas()
-    return venda

@@ -22,6 +22,7 @@ def fechar_compra():
         print('TOTAL DO CARRINHO: ', round(total,2))
         atualiza()
         print(' ')
+        atualiza_relatorio()
         funcoes.nota_fiscal.nota()
         carrinho.clear()
         return True
