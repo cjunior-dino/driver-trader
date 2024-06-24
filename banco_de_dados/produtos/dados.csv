@@ -4,10 +4,10 @@ codigo;nome;marca;categoria;quantidade;preco
 3;Kit de Freio;Spectra Premium;Freios;15;29.99
 4;Sensor de Pressao de Oleo;Dayco;Sensores;20;49.99
 5;Corpo de Borboleta;Mahle;Corpo de Borboleta;22;89.99
-6;Kit de Rolamentos;Gates;Suspensao;30;29.99
-7;Bronzina;TYC;Motor;30;19.99
-8;Junta do Cabecote;Varta;Motor;30;39.99
-9;Bateria;Bosch;Baterias;20;129.99
+6;Kit de Rolamentos;Gates;Suspensao;29;29.99
+7;Bronzina;TYC;Motor;28;19.99
+8;Junta do Cabecote;Varta;Motor;29;39.99
+9;Bateria;Bosch;Baterias;19;129.99
 10;Oleo de Motor;Shell;Fluidos;30;49.99
 11;Arruelas;Eastern;Motor;20;49.99
 12;Kit de Motor;VDO;Motor;35;49.99
