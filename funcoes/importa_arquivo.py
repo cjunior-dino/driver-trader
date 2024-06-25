@@ -12,13 +12,13 @@ def adicina():
 
 
 """Greração do relatorio de vendas"""
-def relatori_prod():
+def relatorio_prod():
     relatorio.clear()
     with open(r'banco_de_dados\relatorio\relatorio.csv', 'r',encoding='utf-8') as arquivo:
         next(arquivo)
-        lista_produtos = arquivo.readlines()
+        lista_produtos2 = arquivo.readlines()
         #criado a lista de produto
-        for i in lista_produtos:
+        for i in lista_produtos2:
             produto.append(i.strip('\n').split(';'))
         print(relatorio)
     return relatorio
