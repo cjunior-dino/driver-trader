@@ -1,5 +1,7 @@
 from funcoes.adiciona_carrinho import carrinho
 from funcoes.atualiza_dados import *
+import funcoes.atualiza_dados
+import funcoes.atualiza_relatorio
 import funcoes.nota_fiscal 
 def fechar_compra():
     if len(carrinho) != 0:
@@ -22,7 +24,7 @@ def fechar_compra():
         print('TOTAL DO CARRINHO: ', round(total,2))
         atualiza()
         print(' ')
-        atualiza_relatorio()
+        funcoes.atualiza_relatorio.relatorio_prod()
         funcoes.nota_fiscal.nota()
         carrinho.clear()
         return True
