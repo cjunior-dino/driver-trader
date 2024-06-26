@@ -1,7 +1,7 @@
 codigo;nome;marca;categoria;quantidade;preco
 1;Kit de Filtros;Motorcraft;Filtros;0;49.99
-2;Bomba D'agua;KYB;Arrefecimento;25;99.99
-3;Kit de Freio;Spectra Premium;Freios;7;29.99
+2;Bomba D'agua;KYB;Arrefecimento;14;99.99
+3;Kit de Freio;Spectra Premium;Freios;6;29.99
 4;Sensor de Pressao de Oleo;Dayco;Sensores;16;49.99
 5;Corpo de Borboleta;Mahle;Corpo de Borboleta;21;89.99
 6;Kit de Rolamentos;Gates;Suspensao;26;29.99

@@ -1,19 +1,21 @@
 from funcoes.adiciona_carrinho import *
 from funcoes.importa_relatorio import *
+from funcoes.importa_arquivo import *
+
 def atualiza_relatorio():
-    
-    with open(r'banco_de_dados\relatorio\relatorio.csv', 'w',encoding='utf-8') as arquivo_dois:
-        arquivo_dois.write('codigo' + ';' + 'nome' + ';' + 'marca' + ';' + 'categoria' + ';' + 'quantidade' + ';' + 'preco' + ';'+ 'total' +'\n')
-        for i in relatorio:
-            print(relatorio)
-            for j in carrinho:
-                print("entrou j")
-                codigo, nome, marca, categoria, quantidade, preco = i
-                codigo2, nome2, marca2, categoria2, quantidade2, preco2 = j
-                if codigo2 == codigo:
-                    total = int(quantidade) + int(quantidade2)
-                    arquivo_dois.write(codigo + ';' + nome + ';' + marca + ';' + categoria + ';' + str(total) + ';' + preco + '\n')
-                    break
-            else:
-                arquivo_dois.write(codigo + ';' + nome + ';' + marca + ';' + categoria + ';' + quantidade + ';' + preco + '\n')
-        
+     
+     with open(r'banco_de_dados\relatorio\relatorio.csv', 'w',encoding='utf-8') as arquivo:
+        arquivo.write('codigo' + ';' + 'nome' + ';' + 'marca' + ';' + 'categoria' + ';' + 'total_venda' + ';' + 'valor_total' + '\n')
+        for dados in carrinho:
+            for dado in relatorio:
+                codigo, nome, marca, categoria, quantidade, total = dados
+                codigo_2, nome_2, marca_2, categoria_2, quantidade_2, total_2 = dado
+                total_quant = 0
+                total_venda = 0       
+                if codigo in codigo_2:
+                        total_quant = int(quantidade) + int(quantidade)
+                        total_venda = float(total) + float(quantidade_2*total_2)
+                        arquivo.write(str(codigo) + ';'+ nome + ';' + marca + ';' + categoria + ';' + str(total_quant) + ';' + str(total_venda) + '\n')
+                else:
+                        total_venda = float(quantidade_2)*float(total_2)
+                        arquivo.write(codigo_2 + ';' + nome_2 + ';' + marca_2 + ';' + categoria_2 + ';' + str(quantidade_2) + ';' + str(total_venda) + '\n')
