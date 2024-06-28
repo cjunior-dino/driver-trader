@@ -8,7 +8,7 @@ def atualiza():
             for j in carrinho:
                 codigo, nome, marca, categoria, quantidade, preco = i
                 codigo2, nome2, marca2, categoria2, quantidade2, preco2 = j
-                if codigo2 == codigo and quantidade != quantidade2:
+                if codigo2 == codigo:
                     total = int(quantidade) - int(quantidade2)
                     arquivo.write(codigo + ';' + nome + ';' + marca + ';' + categoria + ';' + str(total) + ';' + preco + '\n')
                     break

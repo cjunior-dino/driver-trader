@@ -1,14 +1,14 @@
 codigo;nome;marca;categoria;quantidade;preco
-1;Kit de Filtros;Motorcraft;Filtros;0;49.99
-2;Bomba D'agua;KYB;Arrefecimento;5;99.99
-3;Kit de Freio;Spectra Premium;Freios;3;29.99
-4;Sensor de Pressao de Oleo;Dayco;Sensores;16;49.99
-5;Corpo de Borboleta;Mahle;Corpo de Borboleta;19;89.99
-6;Kit de Rolamentos;Gates;Suspensao;25;29.99
-7;Bronzina;TYC;Motor;28;19.99
-8;Junta do Cabecote;Varta;Motor;28;39.99
+1;Kit de Filtros;Motorcraft;Filtros;2;49.99
+2;Bomba D'agua;KYB;Arrefecimento;20;99.99
+3;Kit de Freio;Spectra Premium;Freios;8;29.99
+4;Sensor de Pressao de Oleo;Dayco;Sensores;13;49.99
+5;Corpo de Borboleta;Mahle;Corpo de Borboleta;15;89.99
+6;Kit de Rolamentos;Gates;Suspensao;17;29.99
+7;Bronzina;TYC;Motor;24;19.99
+8;Junta do Cabecote;Varta;Motor;18;39.99
 9;Bateria;Bosch;Baterias;18;129.99
-10;Oleo de Motor;Shell;Fluidos;27;49.99
+10;Oleo de Motor;Shell;Fluidos;25;49.99
 11;Arruelas;Eastern;Motor;18;49.99
 12;Kit de Motor;VDO;Motor;35;49.99
 13;Cabo de Velas;Denso;Ignicao;20;39.99
@@ -18,7 +18,7 @@ codigo;nome;marca;categoria;quantidade;preco
 17;Jogo de Aneis;Victor Reinz;Motor;25;59.99
 18;Interruptor de Luz;Contitech;Sistema Eletrico;30;19.99
 19;Radiador;Brembo;Arrefecimento;30;199.99
-20;Cilindro de Embreagem;National;Transmissao;25;69.99
+20;Cilindro de Embreagem;National;Transmissao;24;69.99
 21;Correia Dentada;ACDelco;Correias;60;39.99
 22;Bomba de Combustivel;Monroe;Combustivel;40;89.99
 23;Catalisador;Sachs;Sistema de Exaustao;30;299.99
@@ -65,7 +65,7 @@ codigo;nome;marca;categoria;quantidade;preco
 64;Valvula EGR;Mahle;Valvulas;30;29.99
 65;Balancins;Ferodo;Motor;25;69.99
 66;Pneu;Michelin;Pneus;50;199.99
-67;Tampa de Valvulas;Siemens;Motor;23;19.99
+67;Tampa de Valvulas;Siemens;Motor;13;19.99
 68;Arruelas;Cloyes;Motor;40;49.99
 69;Biela;Meyle;Motor;25;59.99
 70;Reservatorio de Combustivel;Raybestos;Combustivel;25;49.99
@@ -103,4 +103,4 @@ codigo;nome;marca;categoria;quantidade;preco
 102;teste2;teste;teste;5;4
 103;teste;teste2;teste;5;100
 104;teste2;teste2;teste;6;10
-105;test3;tset;ytr;5;100
+105;test3;tset;ytr;3;100
