@@ -10,8 +10,7 @@ while prossiga == True:
     opcao = input('DIGITE APENAS O NUMERO DA OPÇÃO: ')
     print(' ')
     if opcao == '1':
-        relatorio_prod()
-        print(adicina())
+        menu_gerencial()
     elif opcao == '2':
         menu_vendas()
     elif opcao == '3':
