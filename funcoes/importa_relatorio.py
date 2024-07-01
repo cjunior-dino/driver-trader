@@ -9,5 +9,4 @@ def relatorio_prod():
         #criando a lista de produto
         for i in lista_produtos:
             relatorio2.append(i.strip('\n').split(';'))
-    print(relatorio2)
     return relatorio2

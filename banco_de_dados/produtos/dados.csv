@@ -1,13 +1,13 @@
 codigo;nome;marca;categoria;quantidade;preco
-1;Kit de Filtros;Motorcraft;Filtros;20;49.99
-2;Bomba D'agua;KYB;Arrefecimento;0;99.99
-3;Kit de Freio;Spectra Premium;Freios;20;29.99
-4;Sensor de Pressao de Oleo;Dayco;Sensores;27;49.99
-5;Corpo de Borboleta;Mahle;Corpo de Borboleta;10;89.99
-6;Kit de Rolamentos;Gates;Suspensao;23;29.99
-7;Bronzina;TYC;Motor;17;19.99
-8;Junta do Cabecote;Varta;Motor;18;39.99
-9;Bateria;Bosch;Baterias;18;129.99
+1;Kit de Filtros;Motorcraft;Filtros;17;49.99
+2;Bomba D'agua;KYB;Arrefecimento;10;99.99
+3;Kit de Freio;Spectra Premium;Freios;17;29.99
+4;Sensor de Pressao de Oleo;Dayco;Sensores;26;49.99
+5;Corpo de Borboleta;Mahle;Corpo de Borboleta;229;89.99
+6;Kit de Rolamentos;Gates;Suspensao;16;29.99
+7;Bronzina;TYC;Motor;14;19.99
+8;Junta do Cabecote;Varta;Motor;28;39.99
+9;Bateria;Bosch;Baterias;15;129.99
 10;Oleo de Motor;Shell;Fluidos;25;49.99
 11;Arruelas;Eastern;Motor;18;49.99
 12;Kit de Motor;VDO;Motor;35;49.99
@@ -99,8 +99,3 @@ codigo;nome;marca;categoria;quantidade;preco
 98;Valvula de Controle de Ar;Motorcraft;Valvulas;40;19.99
 99;Tuchos;Aisin;Motor;35;59.99
 100;Porca;Elring;Motor;35;39.99
-101;teste;teste;teste;5;1
-102;teste2;teste;teste;5;4
-103;teste;teste2;teste;5;100
-104;teste2;teste2;teste;6;10
-105;test3;tset;ytr;3;100
