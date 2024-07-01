@@ -3,11 +3,11 @@ codigo;nome;marca;categoria;quantidade;preco
 2;Bomba D'agua;KYB;Arrefecimento;0;99.99
 3;Kit de Freio;Spectra Premium;Freios;20;29.99
 4;Sensor de Pressao de Oleo;Dayco;Sensores;27;49.99
-5;Corpo de Borboleta;Mahle;Corpo de Borboleta;10;89.99
-6;Kit de Rolamentos;Gates;Suspensao;23;29.99
-7;Bronzina;TYC;Motor;17;19.99
-8;Junta do Cabecote;Varta;Motor;18;39.99
-9;Bateria;Bosch;Baterias;18;129.99
+5;Corpo de Borboleta;Mahle;Corpo de Borboleta;9;89.99
+6;Kit de Rolamentos;Gates;Suspensao;14;29.99
+7;Bronzina;TYC;Motor;6;19.99
+8;Junta do Cabecote;Varta;Motor;8;39.99
+9;Bateria;Bosch;Baterias;15;129.99
 10;Oleo de Motor;Shell;Fluidos;25;49.99
 11;Arruelas;Eastern;Motor;18;49.99
 12;Kit de Motor;VDO;Motor;35;49.99
