@@ -1,12 +1,12 @@
 codigo;nome;marca;categoria;quantidade;preco
-1;Kit de Filtros;Motorcraft;Filtros;17;49.99
+1;Kit de Filtros;Motorcraft;Filtros;14;49.99
 2;Bomba D'agua;KYB;Arrefecimento;10;99.99
 3;Kit de Freio;Spectra Premium;Freios;17;29.99
-4;Sensor de Pressao de Oleo;Dayco;Sensores;26;49.99
+4;Sensor de Pressao de Oleo;Dayco;Sensores;23;49.99
 5;Corpo de Borboleta;Mahle;Corpo de Borboleta;229;89.99
-6;Kit de Rolamentos;Gates;Suspensao;16;29.99
-7;Bronzina;TYC;Motor;14;19.99
-8;Junta do Cabecote;Varta;Motor;28;39.99
+6;Kit de Rolamentos;Gates;Suspensao;13;29.99
+7;Bronzina;TYC;Motor;13;19.99
+8;Junta do Cabecote;Varta;Motor;27;39.99
 9;Bateria;Bosch;Baterias;15;129.99
 10;Oleo de Motor;Shell;Fluidos;25;49.99
 11;Arruelas;Eastern;Motor;18;49.99
@@ -48,7 +48,7 @@ codigo;nome;marca;categoria;quantidade;preco
 47;Kit de Embreagem;Standard;Transmissao;20;19.99
 48;Cabo de Embreagem;Cardone;Transmissao;25;19.99
 49;Parafusos;Fel-Pro;Motor;30;29.99
-50;Jogo de Juntas;Timken;Correias;18;39.99
+50;Jogo de Juntas;Timken;Correias;16;39.99
 51;Pastilha de Freio;Pirelli;Freios;25;79.99
 52;Polia da Arvore de Manivelas;Mevotech;Motor;25;39.99
 53;Kit de Correia;Fel-Pro;Correias;25;19.99
@@ -99,3 +99,4 @@ codigo;nome;marca;categoria;quantidade;preco
 98;Valvula de Controle de Ar;Motorcraft;Valvulas;40;19.99
 99;Tuchos;Aisin;Motor;35;59.99
 100;Porca;Elring;Motor;35;39.99
+101;teste;teste;teste;6;1

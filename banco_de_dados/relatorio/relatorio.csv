@@ -1,2 +1,102 @@
 codigo;nome;marca;categoria;total_venda;valor_total
-6;Kit de Rolamentos;Gates;Suspensao;34;1019.6600000000002
+1;Kit de Filtros;Motorcraft;Filtros;2;99.98
+2;Bomba D'agua;KYB;Arrefecimento;0;0
+3;Kit de Freio;Spectra Premium;Freios;0;0
+4;Sensor de Pressao de Oleo;Dayco;Sensores;0;0
+5;Corpo de Borboleta;Mahle;Corpo de Borboleta;0;0
+6;Kit de Rolamentos;Gates;Suspensao;0;0
+7;Bronzina;TYC;Motor;0;0
+8;Junta do Cabecote;Varta;Motor;0;0
+9;Bateria;Bosch;Baterias;0;0
+10;Oleo de Motor;Shell;Fluidos;0;0
+11;Arruelas;Eastern;Motor;0;0
+12;Kit de Motor;VDO;Motor;0;0
+13;Cabo de Velas;Denso;Ignicao;0;0
+14;Cabo de Embreagem;Beck Arnley;Transmissao;0;0
+15;Polia do Comando;K&N;Motor;0;0
+16;Sensor de Fase;ITM Engine Components;Sensores;0;0
+17;Jogo de Aneis;Victor Reinz;Motor;0;0
+18;Interruptor de Luz;Contitech;Sistema Eletrico;0;0
+19;Radiador;Brembo;Arrefecimento;0;0
+20;Cilindro de Embreagem;National;Transmissao;0;0
+21;Correia Dentada;ACDelco;Correias;0;0
+22;Bomba de Combustivel;Monroe;Combustivel;0;0
+23;Catalisador;Sachs;Sistema de Exaustao;0;0
+24;Tampa do Radiador;Airtex;Arrefecimento;0;0
+25;Bomba de Oleo;Bendix;Motor;0;0
+26;Cilindro de Freio;NGK;Freios;0;0
+27;Valvula Termostatica;Sealed Power;Valvulas;0;0
+28;Bobina de Ignicao;Denso;Ignicao;0;0
+29;Embreagem;Magneti Marelli;Transmissao;0;0
+30;Sensor de ABS;Denso;Sensores;0;0
+31;Corrente de Distribuicao;Wearever;Correias;0;0
+32;Reservatorio de Agua;Moog;Arrefecimento;0;0
+33;Disco de Freio;Valeo;Freios;0;0
+34;Amortecedor;Castrol;Suspensao;0;0
+35;Sensor de Velocidade;TRW;Sensores;0;0
+36;Cilindro Mestre;Federated;Transmissao;0;0
+37;Sensor de Rotacao;Bando;Sensores;0;0
+38;Sensor de ABS;Gates;Sensores;0;0
+39;Vela de Ignicao;Mobil;Ignicao;0;0
+40;Filtro de Ar;Fram;Filtros;0;0
+41;Sensor de Oxigenio;NGK;Sensores;0;0
+42;Sensor de Oxigenio;Dayco;Sensores;0;0
+43;Cabo de Freio;Delphi;Transmissao;0;0
+44;Sensor de Velocidade;Hastings;Sensores;0;0
+45;Correia Poly V;Hitachi;Correias;0;0
+46;Aditivo para Radiador;GSP;Arrefecimento;0;0
+47;Kit de Embreagem;Standard;Transmissao;0;0
+48;Cabo de Embreagem;Cardone;Transmissao;0;0
+49;Parafusos;Fel-Pro;Motor;0;0
+50;Jogo de Juntas;Timken;Correias;2;79.98
+51;Pastilha de Freio;Pirelli;Freios;0;0
+52;Polia da Arvore de Manivelas;Mevotech;Motor;0;0
+53;Kit de Correia;Fel-Pro;Correias;0;0
+54;Tampa de Valvulas;Autoline;Motor;0;0
+55;Jogo de Velas;MTE-Thomson;Ignicao;0;0
+56;Cabo de Acelerador;Bosch;Transmissao;0;0
+57;Cabo de Vela;INA;Ignicao;0;0
+58;Lona de Freio;Champion;Freios;0;0
+59;Servo Freio;SKP;Freios;0;0
+60;Valvula de Retencao;Four Seasons;Valvulas;0;0
+61;Palheta de Freio;Goodyear;Freios;0;0
+62;Correia de Comando;Motorcraft;Correias;0;0
+63;Kit de Juntas;Varta;Correias;0;0
+64;Valvula EGR;Mahle;Valvulas;0;0
+65;Balancins;Ferodo;Motor;0;0
+66;Pneu;Michelin;Pneus;0;0
+67;Tampa de Valvulas;Siemens;Motor;0;0
+68;Arruelas;Cloyes;Motor;0;0
+69;Biela;Meyle;Motor;0;0
+70;Reservatorio de Combustivel;Raybestos;Combustivel;0;0
+71;Sensor de Temperatura;Delphi;Sensores;0;0
+72;Jogo de Aneis;Aisin;Motor;0;0
+73;Sensor de Detonacao;ContiTech;Sensores;0;0
+74;Porca;Bosal;Motor;0;0
+75;Aditivo para Radiador;Genuine;Arrefecimento;0;0
+76;Pastilha de Freio;ACI;Freios;0;0
+77;Valvula Solenoide;Wells;Valvulas;0;0
+78;Valvula de Escape;Dorman;Valvulas;0;0
+79;Sensor de Posicao do Virabrequim;SKF;Sensores;0;0
+80;Virabrequim;Bilstein;Motor;0;0
+81;Cilindro de Roda;GKN;Freios;0;0
+82;Junta do Motor;VDO;Motor;0;0
+83;Radiador de Oleo;Mann;Arrefecimento;0;0
+84;Turbina;BorgWarner;Turbo;0;0
+85;Sensor de Temperatura;Fel-Pro;Sensores;0;0
+86;Sensor de Pressao;Gates;Sensores;0;0
+87;Escova Limpador de Parabrisa;Hankook;Suspensao;0;0
+88;Mola;Standard;Suspensao;0;0
+89;Kit de Velas;Hastings;Ignicao;0;0
+90;Comando de Valvulas;Wagner;Motor;0;0
+91;Lampada;Osram;Iluminacao;0;0
+92;Parafusos;Beck Arnley;Motor;0;0
+93;Kit de Suspensao;TYC;Suspensao;0;0
+94;Valvula de Admissao;Clevite;Valvulas;0;0
+95;Jogo de Juntas;Wagner;Correias;0;0
+96;Correia Dentada;Mopar;Correias;0;0
+97;Pistao;Delphi;Motor;0;0
+98;Valvula de Controle de Ar;Motorcraft;Valvulas;0;0
+99;Tuchos;Aisin;Motor;0;0
+100;Porca;Elring;Motor;0;0
+101;teste;teste;teste;3;3.0

@@ -13,6 +13,7 @@ def adiciona_carrinho(cod_prod):
                          print('PRODUTO SEM ESTOQUE')
                          return True
                     elif qtde <= int(quantidade) :
+                        
                         adiciona = codigo, nome, marca, categoria, qtde, preco
                         adiciona_produto.append(adiciona)
                     else:
